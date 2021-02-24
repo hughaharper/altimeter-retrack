@@ -3,8 +3,6 @@
 #include <stdlib.h>
 
 /* void read_cdr(FILE *, struct CDR *, nd_in); */
-int read_cdr(FILE *, struct CDR_HEAD *);
-
 int read_cdr(FILE *cdrfile, struct CDR_HEAD *cdr) {
 	int n;
 	int isat, iasc, ifile, idt;
